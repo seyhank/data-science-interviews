@@ -6,6 +6,6 @@ Here is a list of data science interview questions.
 * Legend: 👶 easy ‍⭐️ medium 🚀 expert
 * See an error? Please create a PR with fix
 
-Make a copy of [questions.md](questions.md) and then type your answers in the spaces provided. If you aren't sure, I've put my (possibly incorrect) answers in [answers.md](answers.md).
+Make a copy of [questions.md](questions.md) and then type your answers in the spaces provided. If you aren't sure, I've put my (possibly incorrect) answers in [answered.md](answered.md).
 
 Fixes and suggestions for more/better questions is always appreciated.
