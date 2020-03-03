@@ -9,7 +9,7 @@
 
 **What is supervised machine learning? 👶**
 
-A case when we have both features (the matrix X) and the labels (the vector y) 
+Answer here
 
 <br/>
 
@@ -17,7 +17,7 @@ A case when we have both features (the matrix X) and the labels (the vector y)
 
 **What is regression? Which models can you use to solve a regression problem? 👶**
 
-Regression is a part of supervised ML. Regression models predict a real number
+Answer here
 
 <br/>
 
@@ -59,7 +59,7 @@ Answer here
 
 **What is the normal equation? ‍⭐️**
 
-Normal equations are equations obtained by setting equal to zero the partial derivatives of the sum of squared errors (least squares); normal equations allow one to estimate the parameters of a multiple linear regression.
+Answer here
 
 <br/>
 
@@ -86,7 +86,7 @@ Answer here
 
 **What is overfitting? 👶**
 
-When your model perform very well on your training set but can't generalize the test set, because it adjusted a lot to the training set.
+Answer here
 
 <br/>
 
@@ -104,7 +104,7 @@ Answer here
 
 **Can you explain how cross-validation works? 👶**
 
-Cross-validation is the process to separate your total training set into two subsets: training and validation set, and evaluate your model to choose the hyperparameters. But you do this process iteratively, selecting differents training and validation set, in order to reduce the bias that you would have by selecting only one validation set.
+Answer here
 
 <br/>
 
@@ -155,44 +155,24 @@ Answer here
 
 **What is accuracy? 👶**
 
-Accuracy is a metric for evaluating classification models. It is calculated by dividing the number of correct predictions by the number of total predictions.
+Answer here
 
 <br/>
 
 **Is accuracy always a good metric? 👶**
-
-Accuracy is not a good performance metric when there is imbalance in the dataset. For example, in binary classification with 95% of A class and 5% of B class, prediction accuracy can be 95%. In case of imbalance dataset, we need to choose Precision, recall, or F1 Score depending on the problem we are trying to solve. 
+Answer here
 
 <br/>
 
 **What is the confusion table? What are the cells in this table? 👶**
 
-Confusion table (or confusion matrix) shows how many True positives (TP), True Negative (TN), False Positive (FP) and False Negative (FN) model has made. 
-
-||                |     Actual   |        Actual |
-|:---:|   :---:        |     :---:    |:---:          |
-||                | Positive (1) | Negative (0)  |
-|Predicted|   Positive (1) | TP           | FP            |
-|Predicted|   Negative (0) | FN           | TN            |
-
-* True Positives (TP): When the actual class of the observation is 1 (True) and the prediction is 1 (True)
-* True Negative (TN): When the actual class of the observation is 0 (False) and the prediction is 0 (False)
-* False Positive (FP): When the actual class of the observation is 0 (False) and the prediction is 1 (True)
-* False Negative (FN): When the actual class of the observation is 1 (True) and the prediction is 0 (False)
-
-Most of the performance metrics for classification models are based on the values of the confusion matrix. 
+Answer here
 
 <br/>
 
 **What are precision, recall, and F1-score? 👶**
 
-* Precision and recall are classification evaluation metrics:
-* P = TP / (TP + FP) and R = TP / (TP + FN).
-* Where TP is true positives, FP is false positives and FN is false negatives
-* In both cases the score of 1 is the best: we get no false positives or false negatives and only true positives.
-* F1 is a combination of both precision and recall in one score:
-* F1 = 2 * PR / (P + R). 
-* Max F score is 1 and min is 0, with 1 being the best.
+Answer here
 
 <br/>
 
@@ -326,8 +306,7 @@ Answer here
 <br/>
 
 **How do we interpret weights in linear models? ‍⭐️**
-
-If the variables are normalized, we can interpret weights in linear models like the importance of this variable in the predicted result.
+Answer here
 
 <br/>
 
