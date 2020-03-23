@@ -1,3 +1,10 @@
+# Theoretical interview questions
+
+* The list of questions is based on this post: https://hackernoon.com/160-data-science-interview-questions-415s3y2a
+* Legend: 👶 easy ‍⭐️ medium 🚀 expert
+* Do you know how to answer questions without answers? Please create a PR
+* See an error? Please create a PR with fix
+
 ## Supervised machine learning
 
 **What is supervised machine learning? 👶**
@@ -861,32 +868,31 @@ Answer here
 
 **What is unsupervised learning? 👶**
 
-Answer here
-
+Unsupervised learning is when there are no labels attached to the data. You do not know *a priori* which data fall into which groups.
 <br/>
 
 **What is clustering? When do we need it? 👶**
 
-Answer here
+Clustering is a tool to group like observations together. We need it because grouping like objects together can give us hints as to the label we should assign to that data.
 
 <br/>
 
 **Do you know how K-means works? ‍⭐️**
 
-Answer here
+You start by randomly assigning k "mean values" in your (potentially high dimensional) data space. You then associate every single data point with the nearest "mean" point. Then you compute the centroid of all the data associated with the individual mean. This becomes you new "mean" and you rinse and repeat until convergence or the specified number of iterations is completed.
 
 <br/>
 
 **How to select K for K-means? ‍⭐️**
 
-Answer here
+You should run k-means several times with different numbers of clusters. Then you look at something called the *explained variance*, which measures how well the model accounts for the variation in the data. Use something like the "elbow method" to try to maximize this.
 
+See all [this wikipedia page](https://en.wikipedia.org/wiki/Determining_the_number_of_clusters_in_a_data_set).
 <br/>
 
 **What are the other clustering algorithms do you know? ‍⭐️**
 
-Answer here
-
+KNN, DBScan, HDBScan, Optics
 <br/>
 
 **Do you know how DBScan works? ‍⭐️**
@@ -897,8 +903,7 @@ Answer here
 
 **When would you choose K-means and when DBScan? ‍⭐️**
 
-Answer here
-
+You can choose K-means when you know how many clusters you want. It is also pretty fast. DBScan doesn't require the number of clusters, but does have other hyperparameters which would need to be tuned.
 <br/>
 
 
