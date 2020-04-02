@@ -43,6 +43,18 @@ Multiple linear regression:
 y = B0 + B1*x1 + ... + Bn * xN
 ```
 
+
+There are four assumptions associated with a linear regression model:
+
+1. Linearity: The relationship between X and the mean of Y is linear.
+2. Homoscedasticity: The variance of residual is the same for any value of X.
+3. Independence: Observations are independent of each other.
+4. Normality: For any fixed value of X, Y is normally distributed.
+
+For homoscdasticity, please check https://en.wikipedia.org/wiki/Homoscedasticity
+
+
+
 <br/>
 
 **What’s the normal distribution? Why do we care about it? 👶**
