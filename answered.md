@@ -66,7 +66,10 @@ Answer here
 
 **How do we check if a variable follows the normal distribution? ‍⭐️**
 
-Answer here
+Kolmogorov–Smirnov test, Histogram, Box are some of the methods to check. More information is at
+
+https://towardsdatascience.com/6-ways-to-test-for-a-normal-distribution-which-one-to-use-9dcf47d8fa93
+
 
 <br/>
 
